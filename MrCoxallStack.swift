@@ -9,5 +9,7 @@ public class MrCoxallStack {
         for element in stackAsArray {
             print("\(element)")
         }
+
+        print()
     }
 }
