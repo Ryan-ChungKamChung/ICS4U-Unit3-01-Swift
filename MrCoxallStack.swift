@@ -2,12 +2,12 @@ public class MrCoxallStack {
     private var stackAsArray = [Int]()
 
     func push(pushNumber: Int) {
-        stackAsArray.append(pushNumber)
+        stackAsArray.insert(pushNumber, at: 0)
     }
 
     func showStack() {
         for element in stackAsArray {
-            print("\(element)", terminator: ", ")
+            print("\(element)")
         }
     }
 }
