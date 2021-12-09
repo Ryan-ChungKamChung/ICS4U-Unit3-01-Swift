@@ -1,4 +1,4 @@
-public class MrCoxallStack {
+class MrCoxallStack {
     private var stackAsArray = [Int]()
 
     func push(pushNumber: Int) {
